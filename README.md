@@ -77,6 +77,12 @@ The steps are listed:
 + `Reads Tagging` : --step tagging
 + `Generating Expression Table`: --step table
 
+## Docker
++ Download the reference genome and store in `data/reference`
++ Create the config file:
+    ./create_config <genome> <container_path_to_reference_genome>
++ Start the container with `-v "$(pwd)"/data:/usr/app/data`
+
 ## Contact
 
 For any questions, please email to: friedpine@gmail.com
