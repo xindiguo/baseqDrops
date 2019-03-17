@@ -16,7 +16,7 @@ for efficient processing
   mkdir data
   cd data
   ```
-+ Download and unzip the reference genome from [here](https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest)
++ Download and the reference genome from [here](https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest)
   ```
   # Curerent References - 3.0.0 (November 19, 2018)
   # Example - Human reference (GRCh38) 
