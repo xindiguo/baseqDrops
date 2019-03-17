@@ -34,6 +34,6 @@ for efficient processing
   ```
   docker pull guoxindi/baseqdrops
   # Example 
-  docker run -v "$(pwd)"/data:/usr/app/data -it baseqdrops run-pipe --config data/config_drop.ini -g hg38 -p 10X -n 10X_sample -1 data/input/10X_R1.fastq.gz -2 data/input/10X_R2.fastq.gz -d data/output
+  docker run -v -it "$(pwd)"/data:/usr/app/data guoxindi/baseqdrops run-pipe --config data/config_drop.ini -g hg38 -p 10X -n 10X_sample -1 data/input/10X_R1.fastq.gz -2 data/input/10X_R2.fastq.gz -d data/output
   ```
   See [beiseq/baseqDrops](https://github.com/beiseq/baseqDrops) for details.
